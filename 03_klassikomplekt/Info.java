@@ -13,7 +13,14 @@ public class Info {
         this.hdd = hdd;
     }
 
-    public String getModel() {
-        return model;
+    @Override
+    public String toString() {
+        return "Info{" +
+                "model='" + model + '\'' +
+                ", processor='" + processor + '\'' +
+                ", graphics='" + graphics + '\'' +
+                ", ram=" + ram +
+                ", hdd=" + hdd +
+                '}';
     }
 }
