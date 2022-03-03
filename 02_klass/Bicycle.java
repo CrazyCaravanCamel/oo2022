@@ -12,6 +12,17 @@ public class Bicycle {
 
     public void Riding() {
         System.out.println("Sinu valitud jalgrattatüüp on " + tüüp + ".");
+        if (tüüp == "mägiratas") {
+            System.out.println("Mäkketõusuks valmis!");
+        } if (tüüp == "maanteejalgratas") {
+            System.out.println("Kiiruseks valmis!");
+        } if (tüüp == "mägiratas" && käik >= 3) {
+            System.out.println("Langeta käiku, tõus on raske!");
+        } if (tüüp == "maanteejalgratas" && käik <= 2) {
+            System.out.println("Tõsta käiku, liigud kiiremini!");
+        } if (vanus >= 5) {
+            System.out.println("Kaalu uuema ratta ostmist. Praegune on " + vanus + " aastat vana.");
+        }
     }
 
     public String toString() {
