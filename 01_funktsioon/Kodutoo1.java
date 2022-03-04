@@ -4,6 +4,10 @@ public class Kodutoo1 {
 
         int randomNum = (int)(Math.random() * 101);
 
+        GuessNumber(randomNum);
+    }
+
+    private static void GuessNumber(int randomNum) {
         int playerGuess = 50;
         if (randomNum < playerGuess) {
             System.out.println("Pakutud arv oli liiga suur");
@@ -16,9 +20,6 @@ public class Kodutoo1 {
             System.out.println("Arv oli " + playerGuess);
         }
     }
-
-
-
 
 
 }
