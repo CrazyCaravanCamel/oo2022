@@ -1,0 +1,16 @@
+package com.company;
+
+public class Pendel {
+    double pikkus;
+    Hammasratas hammasratas1;
+    Hammasratas hammasratas2;
+    Hammasratas hammasratas3;
+
+
+    public Pendel(double _pikkus, Hammasratas _hammasratas1, Hammasratas _hammasratas2, Hammasratas _hammasratas3) {
+        this.pikkus = _pikkus;
+        this.hammasratas1 = _hammasratas1;
+        this.hammasratas2 = _hammasratas2;
+        this.hammasratas3 = _hammasratas3;
+    }
+}

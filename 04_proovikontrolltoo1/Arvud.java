@@ -36,5 +36,6 @@ public class Arvud {
 
             }
         }
+        return doubles;
     }
 }
