@@ -1,4 +1,4 @@
-package teineosa;
+package com.company.teineosa;
 
 public class Jook {
     String nimi;
